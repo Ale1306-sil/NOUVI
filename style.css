@@ -42,7 +42,7 @@ body {
 .hero {
     display:flex;
     padding: 200px;
-    background-image:url("img/beauty.jpg"); 
+    background-image:url("beauty.jpg"); 
     background-repeat:no-repeat;
     background-size:cover;
     text-align: start;
@@ -277,7 +277,7 @@ background-color: #ecdae1;
 .marcas{
     display:flex;
     padding: 60px;
-    background-image:url("img/marcas.jpg"); 
+    background-image:url("marcas.jpg"); 
     background-repeat:no-repeat;
     background-size:cover;
 }
