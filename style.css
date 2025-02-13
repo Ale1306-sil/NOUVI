@@ -1,0 +1,440 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1f4;
+    color: #333;
+}
+
+.header {
+    background-color: #f8d7da;
+    padding: 10px;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    background-color:#f8d7da; 
+    
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+    display:flex;
+    padding: 200px;
+    background-image:url("img/beauty.jpg"); 
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: start;
+    
+  }
+
+  .texto {
+    width: 100%;
+    max-width: 90%;
+    padding: 20px 20px;
+    text-align:start;
+    margin-left: -150px;
+}
+
+
+
+/* Sección de productos */
+
+.section-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color:#F5B9AE;
+
+}
+
+.featured-products {
+  text-align: center;
+  margin: 30px 0;
+  background:#f8f1f4;
+
+}
+.featured-products img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Lista de productos */
+.product-list{
+  display: flex;
+  justify-content:flex-end;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+
+}
+
+.product-card:hover{
+  transform: scale(1.05);
+}
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Botón Ver Más */
+.btn-view-more {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #b35092;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-view-more:hover {
+  background-color: #ecdae1;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+.productos, .accesorios, .skincare {
+    text-align:center;
+    padding: 40px 20px;
+}
+
+.productos-grid, .accesorios-grid, .skincare-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.novedades {
+  background-color: #F3CFC5; /* Color rosado */
+  padding: 60px 30px; /* Espaciado interno */
+  text-align: center;
+  width: 80%;
+  margin: 40px auto; /* Centrar la sección */
+  border-radius: 15px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3D3D3D;
+}
+
+.descripcion {
+  font-size: 16px;
+  color: #7A7A7A;
+  margin-bottom: 30px;
+}
+
+.productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.producto {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.producto img {
+  width: 100px;
+  height: auto;
+}
+
+.nombre {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.precio {
+  font-size: 14px;
+  color: #777;
+}
+
+.producto, .accesorio {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img, .accesorio img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.accesorios{
+  background-color: #F1F7F2; /* Color rosado */
+  padding: 60px 30px; /* Espaciado interno */
+  text-align: center;
+  width: 80%;
+  margin: 40px auto; /* Centrar la sección */
+  border-radius: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8d7da;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.btn-view-more1 {
+  display: flex;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #c7a6a6;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-items: center;
+}
+
+.btn-view-more1:hover {
+background-color: #ecdae1;
+}.btn-view-more {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #b35092;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-view-more:hover {
+  background-color: #ecdae1;
+}
+
+
+
+.marcas{
+    display:flex;
+    padding: 60px;
+    background-image:url("img/marcas.jpg"); 
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.skincare{
+    background-color:#F3CFC5 ; /* Color rosado */
+    padding: 60px 30px; /* Espaciado interno */
+    text-align: center;
+    width: 80%;
+    margin: 40px auto; /* Centrar la sección */
+    border-radius: 15px;
+
+}
+
+.skincare-steps {
+  text-align: center;
+  background: linear-gradient(to bottom, #fff, #fdeff4);
+  padding: 20px;
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fdfdfd;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  width: 140px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-card p {
+  margin: 10px 0 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.view-all {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6b81;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.view-all:hover {
+  background-color: #ff4757;
+}
+
+.shop {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #c9c1c1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.shop:hover {
+  background-color: #f7f1f1;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #fdf1e4, #fddad5);
+  padding: 40px;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 16px;
+  color: #555;
+}
+
+.subscribe {
+  margin-top: 20px;
+}
+
+.subscribe input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.subscribe button {
+  background-color: #ff9a9e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer-column {
+  margin: 0 20px;
+  text-align: left;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #555;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+}
