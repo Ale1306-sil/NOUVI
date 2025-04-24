@@ -1,228 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-57FLQRTZQP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-57FLQRTZQP');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nouvi - Tienda de Maquillaje</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Nouvi - Maquillaje</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">NOUVI</div>
-        <nav class="nav">
+    <header>
+        <h1>Nouvi</h1>
+        <nav>
             <ul>
                 <li><a href="#hero">Inicio</a></li>
-                <li><a href="#product-lis">Productos</a></li>
-                <li><a href="#accesorios">Accesorios</a></li>
-                <li><a href="#skincare">Skincare</a></li>
-                <li><a href="#footer-links">Contacto</a></li>
+                <li><a href="#product-list">Productos</a></li>
+                <li><a href="#footer">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="hero">
-        <div class="texto">
-            <h1>¡Protector solar con 35% OFF!</h1>
-            <p>descuentos en protectores solares hasta 35% OFF solo por 3 días.<br>válido online y tiendas físicas.</p>
-        </div>
-
-        <div class="featured-products1">
-            <button class="btn-view-more1">Ver más</button>
+        <div class="hero-content">
+            <h2>Maquillaje para brillar</h2>
+            <p>Descubre nuestra colección y resalta tu belleza natural.</p>
+            <a href="#product-list" class="shop">Comprar ahora</a>
         </div>
     </section>
 
-
-    <!-- Lista de productos -->
-    <div id="product-list">
-      <div class="product-card">
-        <img src="gloss.jpg" alt="Gloss Dior">
-        <h3>Gloss Dior</h3>
-        <p>$0</p>
-        <button class="shop">Añadir a carrito</button>
-      </div>
-      <div class="product-card">
-        <img src="rubor.jpg" alt="Lipstick">
-        <h3>Labial</h3>
-        <p>$0</p>
-        <button class="shop">Añadir a carrito</button>
-      </div>
-      <div class="product-card">
-        <img src="paleta.jpg" alt="Paleta de sombras">
-        <h3>Paleta de sombras Dior</h3>
-        <p>$0</p>
-        <button class="shop">Añadir a carrito</button>
-      </div>
-    </div>
-
-    <!-- Botón para más -->
-    <div class="featured-products">
-      <button class="btn-view-more">Ver más maquillaje</button>
-    </div>
-    
-    <section class="novedades">
-        <h2>Lo más nuevo</h2>
-        <p class="descripcion">Descubre las novedades aquí</p>
-        <div class="productos">
-            <div class="producto">
-                <img src="tocobo.jpg" alt="Bloqueador Tocobo">
-                <p class="nombre">Bloqueador Tocobo</p>
-                <p class="precio">$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
-            <div class="producto">
-                <img src="1a4fa5e4a31275ee29d05fcc9299975d.jpg" alt="Tinta de Labios Benetint">
-                <p class="nombre">Tinta de Labios Benetint</p>
-                <p class="precio">$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
-            <div class="producto">
-                <img src="rubor.jpg" alt="Rubor Rare Beauty">
-                <p class="nombre">Rubor Rare Beauty</p>
-                <p class="precio">$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
-            <div class="producto">
-                <img src="images.jpg" alt="Tomatox">
-                <p class="nombre">Tomatox</p>
-                <p class="precio">$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
+    <section id="product-list">
+        <div class="product">
+            <img src="rubor.jpg" alt="Rubor Rare Beauty">
+            <h3>Rubor Rare Beauty</h3>
+            <p>S/. 95.00</p>
+            <button class="shop">Añadir al carrito</button>
         </div>
-    </section>
-    
-
-    <section id="accesorios">
-        <h2>Accesorios</h2>
-        <div class="accesorios-grid">
-            <div class="accesorio">
-                <img src="collar.png" alt="Accesorio 1">
-                <h3>Collar</h3>
-                <p>$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
-            <div class="accesorio">
-                <img src="aretes.png" alt="Accesorio 2">
-                <h3>aretes</h3>
-                <p>$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
-            <div class="accesorio">
-                <img src="espejo.jpg" alt="Accesorio 3">
-                <h3>Espejo</h3>
-                <p>$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
-            <div class="accesorio">
-                <img src="gorra.jpeg" alt="Accesorio 4">
-                <h3>Gorra</h3>
-                <p>$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
+        <div class="product">
+            <img src="labial.jpg" alt="Labial MAC">
+            <h3>Labial MAC</h3>
+            <p>S/. 75.00</p>
+            <button class="shop">Añadir al carrito</button>
+        </div>
+        <div class="product">
+            <img src="delineador.jpg" alt="Delineador NYX">
+            <h3>Delineador NYX</h3>
+            <p>S/. 45.00</p>
+            <button class="shop">Añadir al carrito</button>
         </div>
     </section>
 
-    <section id="skincare">
-        <h2>Skincare</h2>
-        <div class="skincare-grid">
-            <div class="producto">
-                <img src="mixsoon.jpg" alt="Mixsoon">
-                <h3>Mixsoon Bean Essence</h3>
-                <p>$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
-            <div class="producto">
-                <img src="arencia.jpg" alt="Rice mochi cleanser">
-                <h3>Rice mochi cleanser</h3>
-                <p>$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
-            <div class="producto">
-                <img src="hidratante.jpg" alt="Accesorio 3">
-                <h3>Hidratante</h3>
-                <p>$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
-            <div class="producto">
-                <img src="serum.jpg" alt="Accesorio 4">
-                <h3>Serum</h3>
-                <p>$0</p>
-                <button class="shop">Añadir a carrito</button>
-            </div>
-        </div>
-    </section>
-
-    <section class="skincare-steps">
-        <h2>Pasos de skincare</h2>
-        <div class="products-container">
-          <div class="product-card">
-            <img src="limpiador.jpg" alt="Limpiador">
-            <p>Limpiadores</p>
-          </div>
-          <div class="product-card">
-            <img src="mascarillas.jpg" alt="mascarilla">
-            <p>mascarilla</p>
-          </div>
-          <div class="product-card">
-            <img src="sueros y tonicos.jpg" alt="Suero">
-            <p>Sueros y Ampollas</p>
-          </div>
-          <div class="product-card">
-            <img src="hidratacion.jpg" alt="Hidratante">
-            <p>Hidratantes</p>
-          </div>
-          <div class="product-card">
-            <img src="bloqueador solar.jpg" alt="Protector Solar">
-            <p>Protector solar</p>
-          </div>
-        </div>
-        <button class="view-all">Ver todo</button>
-      </section>
-      
-      <img src="marcas.jpg" alt="mixsoon" class="marca"> 
-
-    <footer class="footer">
-        <h2>¡Forma parte de lecoreane K-Beauty Club! 📩</h2>
-        <p>Suscríbete a K-Beauty Club y obtén 10% OFF en tu primera compra.  
-        Tendrás acceso VIP a los lanzamientos, descuentos y promociones exclusivas.</p>
-        
+    <footer id="footer">
         <div class="subscribe">
-            <input type="email" placeholder="Correo electrónico">
-            <button>→</button>
+            <h3>Suscríbete a nuestro boletín</h3>
+            <input type="email" placeholder="Tu correo electrónico">
+            <button>Suscribirme</button>
         </div>
-
-        <div id="footer-links">
-            <div class="footer-column">
-                <h3>Menú</h3>
-                <ul>
-                    <li><a href="#">¿Quiénes somos?</a></li>
-                    <li><a href="#">Ubicación</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h3>Para clientes</h3>
-                <ul>
-                    <li><a href="#">Preguntas frecuentes</a></li>
-                    <li><a href="#">Términos y condiciones</a></li>
-                    <li><a href="#">Careers & Collabs</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
-    <a href="https://wa.me/123456789" class="whatsapp">💬</a>
-           
+        <p>© 2025 Nouvi. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
